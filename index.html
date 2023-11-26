@@ -3,37 +3,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LovePets</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
 <body>
     <header>
-        <a href="index.html">
-            <img src="LovePets.png" alt="LovePets" width="150px" width="150px">
-        </a>
-        <nav>
-            <a href="#inicio">Início</a>
-            <a href="#servicos">Serviços</a>
-            <a href="#contato">Contato</a>
-            
-        </nav>
-    </header>
-    <main>
-        <section id="inicio">
-            <img src="inicial.jpg" alt="" width="670" height="500">
-            <div>
+        <div class="topo">
+            <a href="index.html">
+                <img src="imagens/LovePets.png" alt="LovePets" width="150px" width="150px">
+            </a>
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#feedbacks">Feedbacks</a>
+            </nav>
+        </div>
+        <section id="inicio" class="inicio">
+            <div class="imagem1"><img src="imagens/inicial.jpg" alt="" width="670" height="500"></div>
+            <div class="texto">
+                <div class="titulo">
                 <h1>Aqui cuidamos do seu melhor amigo com amor e excelência!</h1>
-                <p>A LovePets é o lugar ideal para você levar o seu pet, aqui oferecemos um serviço de qualidade, com profissionais 
+                </div>
+                <div class="paragrafo">
+                <p>O LovePets é o lugar ideal para você levar o seu pet, aqui oferecemos um serviço de qualidade, com profissionais 
                     excelentes e que têm como objetivo garantir uma experiência incrível para seus clientes.</p>
-                <a href="https://wa.me/557912457874" target="_blank">Faça seu agendamento</a>
+                </div>
+                <button>   
+                    <a href="https://wa.me/557912457874" target="_blank">Faça seu agendamento</a>
+                </button>
             </div>
         </section>
-        <section id="servicos">
+    </header>
+        <section id="servicos" >
             <div>
             <h2>Nossos serviços</h2>
             </div>
-            <img src="banho.jpg" alt="" height="200" width="280">
-            <img src="servico2.jpg" alt="" height="200" width="280">
+            <div>
+            <img src="imagens/banho.jpg" alt="" height="200" width="280">
+            <p>Banho e tosa</p>
+            </div>
+            <div>
+            <img src="imagens/servico2.jpg" alt="" height="200" width="280">
+            <p>Ração e acessórios</p>
+            </div>
+            <div>
+            <img src="imagens/feliz.jpg" alt="" height="200" width="280">
+            <p>Hotelaria</p>
+            </div>
+            <div>
+            <img src="imagens/veterinario.jpg" alt="" height="200" width="280">
+            <p>Atendimento veterinário</p>
+            </div>
         </section>
-    </main>
-    
+        <section id="feedbacks">
+            <div>
+            <p>Ótimo atendimento, profissionais atenciosos e que cuidaram do meu cachorrinho muito bem! <p>
+            <p>-Helena Santos</p>
+            </div>
+        </section>
+        <section id="contato">
+            <h3>Agendamento</h3>
+            <p>Faça seu agendamento clicando no botão ao lado!</p>
+        </section>
+        <section id="rodape">
+            <footer>Copyright &copy; Yasmim Lima 2023</footer>
+        </section>
 </body>
 </html>
