@@ -72,6 +72,8 @@ h2 {
 
 .servicos {
     padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 ul {
@@ -131,4 +133,13 @@ ul li {
     padding: 8px 20px;
     border-radius: 10px;
     border: 2px solid #f9faf8;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    align-items: flex-end;
+    padding: 18px;
+    font-size: 10px;
+    text-align: center;
 }
