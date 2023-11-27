@@ -34,9 +34,10 @@ a {
 button {
     background-color: #3882f6;
     margin-top: 60px;
-    border-radius: 20px;
-    width: 180px;
-    height: 40px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
 }
 
 .titulo{
@@ -109,4 +110,25 @@ ul li {
     color: #1F2937;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.agendamento {
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: #f9faf8;
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+}
+
+.chamada {
+    padding: 80px 110px;
+}
+
+.botao-chamada {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: 2px solid #f9faf8;
 }
